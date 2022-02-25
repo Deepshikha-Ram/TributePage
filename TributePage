@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang=""en">
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+    <meta http-equiv="X-UA-Compativle"content="ie=edge">
+    <title>
+        Tribute Page 
+    </title>
+    <link rel="stylesheet" href=""css/style.css">
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            line-height: 1.8em;
+            color:#666;
+        }
+
+        .pimg1, .pimg2, .pimg3{
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            /* fixed = parallax
+                scroll=normal */
+            background-attachment: fixed;
+        }
+
+        .pimg1{
+            background-image: url("../maxresdefault.jpg");
+            min-height:100%;
+        }
+
+        .pimg2{
+            background-image: url("../330px-Einstein.jpg");
+            min-height:400px;
+        }
+
+        .pimg3{
+            background-image: url("../images.jpg");
+            min-height: 400px;
+        }
+
+        .section{
+            text-align: center;
+            padding: :50px 80px;
+        }
+
+        .section-light{
+            background-color: #f4f4f4;
+            color: #666;
+        }
+
+        .section-dark{
+            background-color: #282e34;
+            color: #ddd;
+        }
+
+        .ptext{
+            position: absolute;
+            top:50%;
+            width:100%;
+            text-align: center;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform:uppercase;
+        }
+
+        .ptext .border{
+            background-color:  #111;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .ptext .border.trans{
+            background-color: transparent;
+        }
+
+        @media(max-width:568px){
+            .pimg1, .pimg2, .pimg3{
+                background-attachment: scrooll;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                Tribute to Albert Einstein
+            </span>
+        </div>
+    </div>
+    <section class="section section-light">
+        <h2> Who was the Albert Einstein </h2>
+        <p>Albert Einstein(14 March, 1879- 18 April, 1995) was a German born American Scientist.
+            He worked on theoritical physics. He developed the theory of relativity. He received
+            the Nobel Prize inPhysics in 1921 for theoritical physics.
+        </p>
+    </section>
+    <div class="pimg2">
+        <div class=ptext">
+            <span class="border">
+                Life Of Albert Einstein
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2> 
+            Early Life 
+        </h2>
+        <p>
+            Einstein was born in Ulm Wurttemberg, Germany on 14 March 1879. His Family was Jewish,
+            but was not very religious. However, later in life Einstein became very interested  in
+            his Judaism.  Einstein did not begin speaking until he was 2 years old. According to 
+            his younger sister, Maja, "He had such difficulty with language that those around him 
+            feared he would never learn".[11] When Einstein was around 4 years old, his father 
+            gave him a magnetic compass. He tried hard to understand how the needle could seem to 
+            move itself so that it always pointed north. The needle was in a closed case, so clearly 
+            nothing like wind could be pushing the needle around, and yet it moved. So in this way 
+            Einstein became interested in studying science and mathematics. His compass gave him 
+            ideas to explore the world of science.  
+                            When he became older, he went to school in Switzerland. After he
+            graduated, he got a job in the patent office there. While he was working there, he wrote 
+            the papers that first made him famous as a great scientist.
+                    Einstein married with a 20-year-old Serbian woman Mileva Marić in January 1903.
+                                    In 1917, Einstein became very sick with an illness that almost
+            killed him, fortunately he survived. His cousin Elsa Löwenthal nursed him back to health. 
+            After this happened, Einstein divorced Mileva in 14 February 1919, and married Elsa on 
+            2 June 1919.
+        </p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border">
+                His life as a child
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>
+            Albert's Childhood Life
+        </h2>
+        <p>
+            Einstein's first daughter was Lieserl Einstein. She was born in Novi Sad, Vojvodina, 
+            Austria-Hungary on January 27, 1902. She spent her first years in the care of Serbian 
+            grandparents because her father Albert did not want her to be brought to Switzerland, 
+            where he had a job offer at the patent office. Some historians believe she died from 
+            scarlet fever.
+                        Einstein's two sons were Hans Albert Einstein and Eduard Tete Einstein. Hans 
+            Albert was born in Bern, Switzerland in May 1904. He became a professor in Berkeley (California).
+            Eduard was born in Zürich, Switzerland in July 1910. He died at 55 years old of a stroke in the 
+            Psychiatric University Hospital Zurich "Burgholzli" . He had spent his life in and out of 
+            hospitals due to his schizophrenia.
+        </p>
+    </section>
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                Later Life
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>
+            His Life as a young Man
+        </h2>
+        <p>
+            In spring of 1914, he moved back to Germany, and became ordinary member of the Prussian Academy 
+            and director of a newly established institute for physics of the Kaiser-Wilhelm-Gesellschaft. 
+            He lived in Berlin and finished the General Theory of Relativity in November 1915. In the Weimar 
+            Republic, he was politically active for socialism and Zionism. In 1922, he received the Nobel 
+            prize for Physics for his explanation of the photoelectric effect in 1905. He then tried to 
+            formulate a general field theory uniting gravitation and electromagnetism, without success. 
+            He had reservations about the quantum mechanics invented by Heisenberg (1925) and Schrodinger (1926). 
+            In spring of 1933, Einstein and Elsa were traveling in the USA when the Nazi party came to power. 
+            The Nazis were violently antisemitic. They called Einstein's relativity theory "Jewish physics," 
+            and some German physicists started polemics against his theories. Others, like Planck and Heisenberg, 
+            defended Einstein.
+                                        After their return to Belgium, considering the threats from the Nazis, 
+            Einstein resigned from his position in the Prussian Academy in a letter from Oostende. Einstein and 
+            Elsa decided not to go back to Berlin and moved to Princeton, New Jersey in the United States, and 
+            in 1940 he became a United States citizen.
+                            Before World War II, in August 1939, Einstein at the suggestion of Leó Szilárd 
+            wrote to the U.S. president, Franklin D. Roosevelt, to say that the United States should invent an 
+            atomic bomb so that the Nazi government could not beat them to the punch. He signed the letter. 
+            However, he was not part of the Manhattan Project, which was the project that created the atomic 
+            bomb.
+                                    Einstein, a Jew but not an Israeli citizen, was offered the presidency in 
+            1952 but turned it down, stating "I am deeply moved by the offer from our State of Israel, and at 
+            once saddened and ashamed that I cannot accept it. Ehud Olmert was reported to be considering 
+            offering the presidency to another non-Israeli, Elie Wiesel, but he was said to be "very not 
+            interested".
+                            He did his research on gravitation at the Institute for Advanced Study at Princeton, 
+            New Jersey until his death on 18 April 1955 of a burst aortic aneurysm. He was still writing about 
+            quantum physics hours before he died. He was awarded the Nobel Prize in Physics. 
+        </p>
+    </section>
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+                His First Contributon in the world of physics
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+       <h2>
+           Theory of relativity
+       </h2>
+       <p>
+            The theory of special relativity was published by Einstein in 1905, in the paper On the Electrodynamics 
+            of Moving Bodies. It says that both distance measurements and time measurements change near the speed of 
+            light. This means that as one get closer to the speed of light (nearly 300,000 kilometres per second), 
+            lengths appear to get shorter, and clocks tick more slowly. Einstein said that special relativity is 
+            based on two ideas. The first is that the laws of physics are the same for all observers that are not moving
+            in relation to each other.
+                            Things going in the same direction at the same speed are said to be in an "inertial frame". 
+            People in the same "frame" measure how long something takes to happen. Their clocks keep the same time. But in 
+            another "frame" their clocks move at a different rate. The reason this happens is as follows. No matter how 
+            an observer is moving, if he measures the speed of the light coming from that star it will always be the same 
+            number.
+                        Imagine an astronaut were all alone in a different universe. It just has an astronaut and a spaceship. 
+            Is he moving? Is he standing still? Those questions do not mean anything. Why? Because when we say we are moving we 
+            mean that we can measure our distance from something else at various times. If the numbers get bigger we are moving 
+            away. If the numbers get smaller we are moving closer. To have movement you must have at least two things. An 
+            airplane can be moving at several hundred kilometers per hour, but passengers say, "I am just sitting here." 
+                                Suppose some people are on a spaceship and they want to make an accurate clock. At one end they 
+            put a mirror, and at the other end they put a simple machine. It shoots one short burst of light toward the mirror 
+            and then waits. The light hits the mirror and bounces back. When it hits a light detector on the machine, the machine 
+            says, "Count = 1," it simultaneously shoots another short burst of light toward the mirror, and when that light comes 
+            back the machine says, "Count = 2." They decide that a certain number of bounces will be defined as a second, and 
+            they make the machine change the seconds counter every time it has detected that number of bounces. Every time it changes 
+            the seconds counter it also flashes a light out through a porthole under the machine. So somebody outside can see the 
+            light flashing every second. 
+                    Every grade school child learns the formula d=rt (distance equals rate multiplied by time). We know the speed of 
+            light, and we can easily measure the distance between the machine and the mirror and multiple that to give the distance the 
+            light travels. So we have both d and r, and we can easily calculate t. The people on the spaceship compare their new "light 
+            clock" with their various wrist watches and other clocks, and they are satisfied that they can measure time well using their 
+            new light clock.
+                            Now this spaceship happens to be going very fast. They see a flash from the clock on the space ship, and 
+            then they see another flash. Only the flashes do not come a second apart. They come at a slower rate. Light always goes at 
+            the same speed, d = rt. That is why the clock on the spaceship is not flashing once a second for the outside observer.
+                    Special relativity also relates energy with mass, in Albert Einstein's E=mc2 formula.
+       </p>
+    </section>
+    
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border">
+                His Second Contribution
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>
+            Mass-Energy Equivalence
+        </h2>
+        <p>
+                E=mc2, also called the mass-energy equivalence, is one of the things that Einstein is most famous for. It is a 
+            famous equation in physics and math that shows what happens when mass changes to energy or energy changes to mass. 
+            The "E" in the equation stands for energy. Energy is a number which you give to objects depending on how much they 
+            can change other things. For instance, a brick hanging over an egg can put enough energy onto the egg to break it. 
+            A feather hanging over an egg does not have enough energy to hurt the egg.
+                        There are three basic forms of energy: potential energy, kinetic energy, and rest energy. Two of these 
+            forms of energy can be seen in the examples given above, and in the example of a pendulum. 
+        </p>
+    </section>
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+                His third Contribution
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>
+            BEC(Bose Einstein Condensate)
+        </h2>
+        <p>
+            The idea of a Bose-Einstein condensate came out of a collaboration between S. N. Bose and Prof. Einstein. Einstein 
+            himself did not invent it but, instead, refined the idea and helped it become popular. 
+        </p>
+    </section>
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+                His Fourth Contribution
+            </span>
+        </div>
+    </div>
+    <section class="section section-dark">
+        <h2>
+            Zero Point Energy
+        </h2>
+        <p>
+            The concept of zero-point energy was developed in Germany by Albert Einstein and Otto Stern 
+            in 1913.
+        </p>    
+    </section>
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border">
+                    His Fifth Contribution
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>
+                Momentum Mass And Energy
+            </h2>
+            <p>
+                In classical physics, momentum is explained by the equation:  p = mv
+                where p represents momentum, m represents mass and v represents velocity (speed)
+                When Einstein generalized classical physics to include the increase of mass due to the 
+                velocity of the moving matter, he arrived at an equation that predicted energy to be 
+                made of two components. One component involves "rest mass" and the other component involves 
+                momentum, but momentum is not defined in the classical way. The equation typically has 
+                values greater than zero for both components:E2 = (m0c2)2 + (pc)2
+                where E represents the energy of a particle, m0 represents the mass of the particle when it 
+                is not moving, p represents the momentum of the particle when it is moving, c represents the 
+                speed of light.
+                There are two special cases of this equation. A photon has no rest mass, but it has momentum.
+                (Light reflecting from a mirror pushes the mirror with a force that can be measured.) In the 
+                case of a photon, because its m0 = 0, then:  E2 = 0 + (pc)2, E = pc, p = E/c
+                           The energy of a photon can be computed from its frequency ν or wavelength λ. 
+                These are related to each other by Planck's relation, E = hν = hc/λ, where h is the Planck 
+                constant (6.626×10−34 joule-seconds). Knowing either frequency or wavelength, you can compute 
+                the photon's momentum. In the case of motionless particles with mass, since p = 0, then:
+                E02 = (m0c2)2 + 0, which is just E0 = m0c2, Therefore, the quantity "m0" used in Einstein's 
+                equation is sometimes called the "rest mass." (The "0" reminds us that we are talking about 
+                the energy and mass when the speed is 0.) This famous "mass-energy relation" formula (usually 
+                written without the "0"s) suggests that mass has a large amount of energy, so maybe we could 
+                convert some mass to a more useful form of energy. The nuclear power industry is based on that 
+                idea.
+                                    Einstein said that it was not a good idea to use the classical formula 
+                relating momentum to velocity, p = mv, but that if someone wanted to do that, he would have to 
+                use a particle mass m that changes with speed: mv2 = m02 / (1 – v2/c2) In this case, we can say 
+                that E = mc2 is also true for moving particles. 
+            </p>
+        </section>
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border">
+                    His Fifth Contribution
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>
+                The General Theory of relativity
+            </h2>
+            <p>
+                The General Theory of Relativity was published in 1915, ten years after the special theory of 
+                relativity was created. Einstein's general theory of relativity uses the idea of spacetime. 
+                Spacetime is the fact that we have a four-dimensional universe, having three spatial (space) 
+                dimensions and one temporal (time) dimension. Any physical event happens at some place inside 
+                these three space dimensions, and at some moment in time. According to the general theory of 
+                relativity, any mass causes spacetime to curve, and any other mass follows these curves. 
+                Bigger mass causes more curving. This was a new way to explain gravitation (gravity).
+                            General relativity explains gravitational lensing, which is light bending when it 
+                comes near a massive object. This explanation was proven correct during a solar eclipse, when 
+                the sun's bending of starlight from distant stars could be measured because of the darkness of 
+                the eclipse.
+                                    General relativity also set the stage for cosmology (theories of the 
+                structure of our universe at large distances and over long times). Einstein thought that the 
+                universe may curve a little bit in both space and time, so that the universe always had existed 
+                and always will exist, and so that if an object moved through the universe without bumping into 
+                anything, it would return to its starting place, from the other direction, after a very long time. 
+                He even changed his equations to include a "cosmological constant," in order to allow a mathematical 
+                model of an unchanging universe. The general theory of relativity also allows the universe to 
+                spread out (grow larger and less dense) forever, and most scientists think that astronomy has proved 
+                that this is what happens. When Einstein realized that good models of the universe were possible 
+                even without the cosmological constant, he called his use of the cosmological constant his "biggest 
+                blunder," and that constant is often left out of the theory. However, many scientists now believe 
+                that the cosmological constant is needed to fit in all that we now know about the universe.
+                                A popular theory of cosmology is called the Big Bang. According to the Big Bang 
+                theory, the universe was formed 15 billion years ago, in what is called a "gravitational singularity". 
+                This singularity was small, dense, and very hot. According to this theory, all of the matter that we 
+                know today came out of this point.
+                        Einstein himself did not have the idea of a "black hole", but later scientists used this name 
+                for an object in the universe that bends spacetime so much that not even light can escape it. They 
+                think that these ultra-dense objects are formed when giant stars, at least three times the size of 
+                our sun, die. This event can follow what is called a supernova. The formation of black holes may be 
+                a major source of gravitational waves, so the search for proof of gravitational waves has become an 
+                important scientific pursuit. 
+            </p>
+        </section>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">
+                    His Other work Besides Being Scientist
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>
+                Beliefs
+            </h2>
+            <p>
+                Many scientists only care about their work, but Einstein also spoke and wrote often about politics and 
+                world peace. He liked the ideas of socialism and of having only one government for the whole world. He 
+                also worked for Zionism, the effort to try to create the new country of Israel.
+                                Prompted by his colleague L. E. J. Brouwer, Einstein read the philosopher Eric Gutkind's 
+                book Choose Life,[18] a discussion of the relationship between Jewish revelation and the modern world. 
+                On January 3, 1954, Einstein sent the following reply to Gutkind: "The word God is for me nothing more 
+                than the expression and product of human weaknesses, the Bible a collection of honourable, but still 
+                primitive legends which are nevertheless pretty childish. .... For me the Jewish religion like all 
+                other religions is an incarnation of the most childish superstitions. In 2018 his letter to Gutkind was 
+                sold for $2.9 million.
+                            Even though Einstein thought of many ideas that helped scientists understand the world much 
+                better, he disagreed with some scientific theories that other scientists liked. The theory of quantum 
+                mechanics discusses things that can happen only with certain probabilities, which cannot be predicted 
+                with more precision no matter how much information we might have. This theoretical pursuit is different 
+                from statistical mechanics, in which Einstein did important work. Einstein did not like the part of 
+                quantum theory that denied anything more than the probability that something would be found to be true 
+                of something when it was actually measured; he thought that it should be possible to predict anything, 
+                if we had the correct theory and enough information. He once said, "I do not believe that God plays 
+                dice with the Universe."
+                                                Because Einstein helped science so much, his name is now used for several 
+                different things. A unit used in photochemistry was named for him. It is equal to Avogadro's number 
+                multiplied by the energy of one photon of light. The chemical element Einsteinium is named after the 
+                scientist as well.[23] In slang, we sometimes call a very smart person an "Einstein." 
+            </p>
+        </section>
+        <div class="pimg2">
+            <viv class="ptext">
+                <span class="border">
+                    Opinion About Albert Einstein
+                </span>
+            </viv>
+        </div>"
+        <section class="section section-dark">
+            <h2>
+                Criticism
+            </h2>
+            <p>
+                Most scientists think that Einstein's theories of special and general relativity work very well, and they 
+                use those ideas and formulas in their own work. Einstein disagreed that phenomena in quantum mechanics can 
+                happen out of pure chance. He believed that all natural phenomena have explanations that do not include pure
+                chance. He spent much of his later life trying to find a "unified field theory" that would include his general 
+                relativity theory, Maxwell's theory of electromagnetism, and perhaps a better quantum theory. Most scientists 
+                do not think that he succeeded in that attempt.
+            </p>
+        </section>
+</body>
+</html>
