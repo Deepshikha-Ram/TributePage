@@ -12,7 +12,7 @@ body{
 }
 
 #showcase{
-    background-image: url('c:/Users/Babita/Documents/Web pages/study.jpg');
+    background-image: url('../study.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
