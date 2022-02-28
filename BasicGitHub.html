@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="BasicGitHub.css">
+        <title>
+            BASIC GIT HUB
+        </title>
+        <style>
+            #myBtn{
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 30px;
+                z-index:99;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                background-color: royalblue;
+                color:white;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 4px;
+            }
+
+            #myBtn:hover{
+                background-color:aqua;
+            }
+
+            #hd1{
+                background-color: brown;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            a{
+                color:#7ff114;
+            }
+            a:visited{
+                color: rgb(27, 230, 179);
+            }
+            a:hover, a:active, a:focus{
+                color:#c33;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="hd1">
+            <h1 style="color:blueviolet;background-color:chartreuse">
+                Tutorial Of Basic Git Hub
+            </h1>
+            <h2>
+                Millions of developers and companies build, ship, and 
+                maintain their software on GitHub—the largest and most 
+                advanced development platform in the world of VCS(Version 
+                Control System). 
+            </h2>
+            <a href="https://docs.github.com/en" class="button">
+               <h3> Access Complete Content Of Git Hub. </h3>
+            </a>
+        </header>
+        <h1>Here is only the basic contents are provided</h1>
+        <section id="01">
+            <h2 style="color:blueviolet;background-color:chartreuse">
+                Hello World.
+            </h2>
+            <br><br>
+            <p>
+                Follow this hello world exercise to get started with GitHub.
+            </p>
+        </section>
+        <section id="02">
+            <h2 style="color:blueviolet;background-color:chartreuse">
+                Introduction
+            </h2>
+            <br> <br>
+            <p>
+                GitHub is a code hosting platform for version control and collaboration. 
+                It lets you and others work together on projects from anywhere.
+                This tutorial teaches you GitHub essentials like repositories, 
+                branches, commits, and pull requests. You'll create your own Hello World 
+            repository and learn GitHub's pull request workflow, a popular way to create 
+            and review code.
+            
+            In this quickstart guide, you will:
+            <ul>
+                <li> Create and use a repository<a href="#o3"> (learn more....)</a></li>
+                <li> Start and manage a new branch<a href="#04"> (learn more....)</a></li>
+                <li> Make changes to a file and push them to GitHub as commits<a href="#05"> (learn more....)</a></li>
+                <li> Open and merge a pull request<a href="#06"> (learn more....)</a></li>
+            </ul>
+            To complete this tutorial, you need a GitHub account and 
+            Internet access. You don't need to know how to code, use the command 
+            line, or install Git (the version control software that GitHub is built 
+            on). If you have a question about any of the expressions used in this 
+            guide, head on over to the glossary to find out more about our terminology.
+        </p>
+        </section>
+        <section id="03">
+            <h2 style="color:blueviolet;background-color:chartreuse">
+                Creating a repository
+            </h2>
+            <br><br>
+            <p>
+                A repository is usually used to organize a single project. Repositories 
+                can contain folders and files, images, videos, spreadsheets, and data sets 
+                -- anything your project needs. Often, repositories include a README file, 
+                a file with information about your project. README files are written in 
+                the plain text Markdown language. You can use this 
+                <a href="https://www.markdownguide.org/cheat-sheet/"> cheat sheet </a> to 
+                get started with Markdown syntax. GitHub lets you add a README file at the 
+                same time you create your new repository. GitHub also offers other common 
+                options such as a license file, but you do not have to select any of them 
+                now.<a href="https://docs.github.com/en/get-started/quickstart/hello-world">read more...</a>.
+            </p>
+        </section>
+        <section id="04">
+           <h2 style="color:blueviolet;background-color:chartreuse"> 
+                Creating A branch 
+            </h2>
+            <br><br>
+            <p>
+                Branching lets you have different versions of a repository at one time.
+                By default, your repository has one branch named main that 
+                is considered to be the definitive branch. You can create additional 
+                branches off of main in your repository. You can use branches to have 
+                different versions of a project at one time. This is helpful when you 
+                want to add new features to a project without changing the main source 
+                of code. The work done on different branches will not show up on the main 
+                branch until you merge it, which we will cover later in this guide. You 
+                can use branches to experiment and make edits before committing them to 
+                main.<a href="https://docs.github.com/en/get-started/quickstart/hello-world">read more...</a>
+            </p>
+        </section>
+        <section id="05">
+            <h2 style="color:blueviolet;background-color:chartreuse">
+                Opening pull request.
+            </h2>
+            <br><br>
+            <p>
+                Now that you have changes in a branch off of main, you can open a pull request.
+                Pull requests are the heart of collaboration on GitHub. When you open 
+                a pull request, you're proposing your changes and requesting that someone review and 
+                pull in your contribution and merge them into their branch. Pull requests show diffs, 
+                or differences, of the content from both branches. The changes, additions, and 
+                subtractions are shown in different colors.
+                As soon as you make a commit, you can open a pull request and start a discussion, 
+                even before the code is finished.
+                By using GitHub's @mention feature in your pull request message, you can 
+                ask for feedback from specific people or teams, whether they're down the hall or 10 time 
+                zones away.<a href="https://docs.github.com/en/get-started/quickstart/hello-world">read more...</a>
+            </p>
+        </section>
+        <section id="06">
+            <h2 style="color:blueviolet;background-color:chartreuse">
+                Merging your pull request
+            </h2>
+            <br><br>
+            <p>
+                In this final step, you will merge your readme-edits branch into the main branch. After you 
+                merge your pull request, the changes on your readme-edits branch will be incorporated into 
+                main.
+                            Sometimes, a pull request may introduce changes to code that conflict with the 
+                existing code on main. If there are any conflicts, GitHub will alert you about the conflicting 
+                code and prevent merging until the conflicts are resolved. You can make a commit that resolves 
+                the conflicts or use comments in the pull request to discuss the conflicts with your team members.
+            </p>
+        </section>
+        <button onclick="scrollup()" id="myBtn" title="Go To Top">GO UP</button>
+        <script>
+            var myButton= document.getElementById("myBtn");
+            window.onscroll= function(){
+                scrollFunction()
+            };
+            function scrollFunction(){
+                if(document.body.scrollTop >20||document.documentElement.scrollTop > 20){
+                    myButton.style.display="block";
+                }
+                else{
+                    myButton.style.display="none";
+                }
+            }
+
+            function scrollup(){
+                document.body.scrollTop=0;
+                document.documentElement.scrollTop=0;
+            }       
+        </script>
+        </body>
+        </html>
